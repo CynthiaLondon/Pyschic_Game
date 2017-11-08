@@ -20,7 +20,9 @@ header {
 }
 
 .container {
-
+	font-family: Droid Sans;
+	font-size: 25px;
+	text-align: center;
 }
 
 .game p {
