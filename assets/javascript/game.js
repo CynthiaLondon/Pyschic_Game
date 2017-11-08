@@ -9,5 +9,5 @@ var losses = 0;
 var ties = 0;
 var yourGuesses = 10;
 
-var computerchoice = letter(Math.random) * letter.length)];
+var computerChoice = letter[Math.floor(Math.random) * letter.length)];
 console log(computerchoice)
