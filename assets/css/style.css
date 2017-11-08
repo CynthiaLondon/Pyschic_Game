@@ -1,13 +1,14 @@
 body {
 	background-color: #008B8B;
-	color: #777;
+	color: #FFFFFF;
 
 }
 
 header {
 	font-family: Droid Sans;
-	color: #777;
-	font-size: 20px;
+	color: #FFFFFF;
+	font-size: 45px;
+	text-align: center;
 
 }
 
