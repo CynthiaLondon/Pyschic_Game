@@ -1,4 +1,6 @@
 body {
+	background-color: #008B8B;
+	color: 777;
 
 }
 
@@ -10,6 +12,10 @@ header {
 	
 }
 
-.container
+.container {
 
-.game [p]
+}
+
+.game p {
+
+}
