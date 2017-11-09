@@ -1,8 +1,11 @@
 #container {
 	background-color: #	#708090;
 
+
 } #jumbotron {
 	align-items: center;
+
+
 }
 
 p {
@@ -11,4 +14,8 @@ p {
 
 h2, h4 {
 	align-text: center;
+}
+
+#title {
+	text-align: center;
 }
