@@ -10,5 +10,8 @@ var letterGuess = alphabetLetters[Math.floor(Math.random() * alphabetLetters.len
 console.log("Wins: " + wins + " Losses: " + losses + " leftGuesses: " + leftGuesses + " Guesses Made: " + guessesMade + " Computer picked: " + letterGuess);
 
 document.onkeyup = fuction (event){
-	
+	var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
+	if (GuessesMade.indexOf(userGuess) < 0 && alphabetLetters.indexOf(userGuess) >= 0) {
+		
+	} 
 }
