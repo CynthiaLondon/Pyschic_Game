@@ -30,6 +30,9 @@ document.onkeyup = fuction (event){
 		guessesMade = [];
 		letterGuess = alaphabetLetters[Math.floor(Math.random() * alpahbetLetters.length];
 		console.log("Wins: " + wins + " Losses: " + losses + " leftGuesses: " + leftGuesses + "Guesses Made: ") + guessesMade + " Computer picked: " + letterGuess);
+
 	}
 	
+	var html = "<p><h2>The Psychic Kitty Game</h2></p>" + "<p><h4>Guess what letter the kitty is thinking of</h4></p>" + "<p><h4>Wins: " + wins + "</h4></p>" + "<p><h4>Losses: " + losses + "</h4></p>" + "<p><h4>Left Guesses: " + leftGuesses + "</h4></p>" + "<p><h4>Guesses made so far: " + guessesMade + "</h4></p>";
+	document.querySelector("#game").innerHTML = html;
 }
