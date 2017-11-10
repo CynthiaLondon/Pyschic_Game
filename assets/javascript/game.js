@@ -8,3 +8,7 @@ var guessesMade = [];
 var userGuess = null;
 var letterGuess = alphabetLetters[Math.floor(Math.random() * alphabetLetters.length)];
 console.log("Wins: " + wins + " Losses: " + losses + " leftGuesses: " + leftGuesses + " Guesses Made: " + guessesMade + " Computer picked: " + letterGuess);
+
+document.onkeyup = fuction (event){
+	
+}
