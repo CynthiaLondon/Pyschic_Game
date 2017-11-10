@@ -15,7 +15,7 @@ document.onkeyup = fuction (event){
 		guessesMade[guessesMade.length]= "UserGuess";
 		leftGuesses--; 
 	} 
-	if letterGuess == UserGuess) {
+	if letterGuess == (userGuess) {
 		wins++;
 		console.log("You won!");
 		leftGuesses = 10;
@@ -23,5 +23,13 @@ document.onkeyup = fuction (event){
 		letterGuess = alaphabetLetters[Math.floor(Math.random() * alaphabetLetters.length)];
 		console.log("Wins: " + wins + " Losses: " + losses + " leftGuesses: " + leftGuesses + "Guesses Made: " + guessesMade + " Computer picked: " + letterGuess);
 }
+	if (leftGuesses == 0) {
+		losses = ++;
+		console.log("You lost!");
+		leftGuesses = 10;
+		guessesMade = [];
+		letterGuess = alaphabetLetters[Math.floor(Math.random() * alpahbetLetters.length];
+		console.log("Wins: " + wins + " Losses: " + losses + " leftGuesses: " + leftGuesses + "Guesses Made: ") + guessesMade + " Computer picked: " + letterGuess);
+	}
 	
 }
