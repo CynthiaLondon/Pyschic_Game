@@ -9,9 +9,19 @@ var userGuess = null;
 var letterGuess = alphabetLetters[Math.floor(Math.random() * alphabetLetters.length)];
 console.log("Wins: " + wins + " Losses: " + losses + " leftGuesses: " + leftGuesses + " Guesses Made: " + guessesMade + " Computer picked: " + letterGuess);
 
-document.onkeyup = fuction (event){
+document.onkeyup = fuction (event){ 
 	var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
-	if (GuessesMade.indexOf(userGuess) < 0 && alphabetLetters.indexOf(userGuess) >= 0) {
-		
+	if (guessesMade.indexOf(userGuess) < 0 && alphabetLetters.indexOf(userGuess) >= 0) {
+		guessesMade[guessesMade.length]= "UserGuess";
+		leftGuesses--; 
 	} 
+	if letterGuess == UserGuess) {
+		wins++;
+		console.log("You won!");
+		leftGuesses = 10;
+		guessesMade = [];
+		letterGuess = alaphabetLetters[Math.floor(Math.random() * alaphabetLetters.length)];
+		console.log("Wins: " + wins + " Losses: " + losses + " leftGuesses: " + leftGuesses + "Guesses Made: " + guessesMade + " Computer picked: " + letterGuess);
+}
+	
 }
