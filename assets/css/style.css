@@ -1,21 +1,15 @@
 #container {
 	background-color: #	#708090;
+} 
 
-
-} #jumbotron {
+#jumbotron 
+{
 	align-items: center;
-
-
 }
-
-p {
-	align-text: center;
-}
-
-h2, h4 {
-	align-text: center;
-}
-
 #title {
 	text-align: center;
+}
+
+h1, h2, h4 {
+	color: #A9A9A9;
 }
